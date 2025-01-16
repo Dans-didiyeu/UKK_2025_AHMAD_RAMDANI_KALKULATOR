@@ -58,3 +58,6 @@ body{
 .operator{
     color: aqua;
 }
+button[data-value="="]{
+    grid-column: span 2;
+}
