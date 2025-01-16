@@ -1,6 +1,6 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
-const specialChars = ["%", "*", "/", "-", "+", "="];
+const specialChars = ["*", "/", "-", "+", "="];
 let output = "";
 
 const calculate = (btnValue) => {
